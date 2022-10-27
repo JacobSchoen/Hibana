@@ -1,16 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SanityPortal msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SanityPortal from './components/SanityPortal.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    SanityPortal
+}
 }
 </script>
 
