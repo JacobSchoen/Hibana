@@ -2,7 +2,7 @@
   <div class="hello">
     <section>
       <div>
-        Sanity.io portion
+        <h1> Welcome to Hibana Blog</h1>
         <div v-for="post in posts" class="post-item" :key="post._id">
             <router-link :to="`/blog/${post.slug.current}`">
               <h2>{{ post.title }}</h2>
