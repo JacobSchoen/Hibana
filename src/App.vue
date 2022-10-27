@@ -1,14 +1,17 @@
 <template>
   <SanityPortal msg="Welcome to Your Vue.js App"/>
+  <Hibana/>
 </template>
 
 <script>
 import SanityPortal from './components/SanityPortal.vue';
+import Hibana from '@/components/Hibana';
 
 export default {
   name: 'App',
   components: {
-    SanityPortal
+    SanityPortal,
+    Hibana
 }
 }
 </script>
